@@ -1,0 +1,24 @@
+{
+    "name": "cob",
+    "private": true,
+    "version": "0.0.0",
+    "description": "CivClassic Online Banking",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yodabird19/COB.git"
+    },
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "discord.js": "^13.0.0"
+    },
+    "prettier": {
+        "useTabs": false,
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "semi": true
+    }
+}
