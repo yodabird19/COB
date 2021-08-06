@@ -22,4 +22,4 @@ client.on('message', (message) => {
     }
 });
 
-client.login(token);
+client.login(DISCORD_BOT_TOKEN);
